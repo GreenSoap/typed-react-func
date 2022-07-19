@@ -4,7 +4,8 @@
   "description": "A functional React component for Typed.js",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -13,8 +14,10 @@
   "keywords": [
     "react",
     "functional",
-    "typed"
-  ],
+    "typed",
+    "typescript",
+    "ts"
+  ],  
   "author": "William Sjökvist",
   "license": "MIT",
   "bugs": {

@@ -1,4 +1,3 @@
-import React = require('react');
 import { useEffect, useRef, forwardRef } from 'react'
 import Typed from 'typed.js'
 import { TypedComponentProps } from '.';

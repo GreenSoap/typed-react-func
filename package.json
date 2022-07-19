@@ -1,0 +1,34 @@
+{
+  "name": "typed-react-func",
+  "version": "1.0.0",
+  "description": "A functional React component for Typed.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenSoap/typed-react-func.git"
+  },
+  "keywords": [
+    "react",
+    "functional",
+    "typed"
+  ],
+  "author": "William Sjökvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreenSoap/typed-react-func/issues"
+  },
+  "homepage": "https://github.com/GreenSoap/typed-react-func#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typed.js": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "typescript": "^4.7.4"
+  }
+}

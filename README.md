@@ -30,6 +30,7 @@ All Typed.js constructor options are passed as props to this component. You can 
 ## Extended props
 | Prop | Type | Description |
 |---------|---------|---------|
+| ref | Typed | A reference to the Typed instance the component creates    |
 | className  | string | Adds a className to the container, default is `typewriter`     |
 | isStopped | boolean | Initializes the component without starting typing  |
 | hideCursorBeforeStart | boolean | Hides the cursor before the typing begins (only if showCursor is set to true)      |

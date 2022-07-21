@@ -1,5 +1,6 @@
 *.json
-./src
+src/
 
+.github/
 .gitignore
 .eslintrc.yml

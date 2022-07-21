@@ -35,6 +35,8 @@ All Typed.js constructor options are passed as props to this component. You can 
 | hideCursorBeforeStart | boolean | Hides the cursor before the typing begins (only if showCursor is set to true)      |
 
 ## Example with following cursor (with multiple instances)
+<img src='example.gif'/>
+
 ```ts
 import { useRef } from 'react'
 import TypedComponent from 'typed-react-func'
@@ -45,7 +47,7 @@ const HelloWorldHeading = () => {
     <header>
       <h1>
         <TypedComponent 
-          strings={['Hello World']} 
+          strings={['Hello World,']} 
           showCursor={true}
           loop={false}
           onComplete={(self) => { 

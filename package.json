@@ -1,6 +1,6 @@
 {
   "name": "typed-react-func",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A functional React component for Typed.js",
   "main": "lib/index.js",
   "scripts": {

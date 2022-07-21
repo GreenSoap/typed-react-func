@@ -1,6 +1,10 @@
 # typed-react-func
 A functional React component for Typed.js
 
+## Installation
+
+`npm i typed-react-func typed.js`
+
 ## Basic Example
 ```ts
 import TypedComponent from 'typed-react-func'

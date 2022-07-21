@@ -3,7 +3,7 @@ A functional React component for Typed.js
 
 ## Installation
 
-`npm i typed-react-func typed.js`
+`npm i typed-react-func`
 
 ## Basic Example
 ```ts

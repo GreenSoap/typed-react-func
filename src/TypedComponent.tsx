@@ -1,6 +1,6 @@
 import { useEffect, useRef, forwardRef } from 'react'
 import Typed from 'typed.js'
-import { TypedComponentProps } from '.';
+import { TypedComponentProps } from './';
 
 const TypedComponent = forwardRef<Typed, TypedComponentProps>((props, ref?) => {
   const containerRef = useRef<HTMLSpanElement>(null);

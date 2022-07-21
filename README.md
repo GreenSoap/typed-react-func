@@ -66,7 +66,7 @@ const HelloWorldHeading = () => {
           showCursor={true}
           hideCursorBeforeStart={true}
           isStopped={true}
-          onStart={(props, self) => { 
+          onStart={(arrayPos, self) => { 
             // Show the cursor when the typing starts
             const cursor = (self as any).cursor
             if (cursor) 
